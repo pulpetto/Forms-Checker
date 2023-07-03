@@ -7,6 +7,7 @@ import { DataInputComponent } from './data-input/data-input.component';
 import { EmailInputComponent } from './email-input/email-input.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { SubmitBtnComponent } from './submit-btn/submit-btn.component';
 
 @NgModule({
     declarations: [
@@ -14,6 +15,7 @@ import { MaterialModule } from './material/material.module';
         NameInputComponent,
         DataInputComponent,
         EmailInputComponent,
+        SubmitBtnComponent,
     ],
     imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
     providers: [],
